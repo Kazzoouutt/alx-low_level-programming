@@ -1,22 +1,24 @@
-#include <stdio.h>
-#include <time.h>
-#include <stdlib.h>
+#include<stdio.h>
+#include<time.h>
+/*Positive anything is better than negative nothing*/
 
 /**
- * main - To determine if a number is positive, negative or zero
+ * main - Find out if a number stored in the variable is positive or negative
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	int n;
+
 	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	
-	if (n == 0)
-		printf("%i is zero\n", n);
-	else if (n < 0)
-		printf("%i is negative\n", n);
-	else (n > 0)
-		printf("%i is positive\n", n);
+	n = rand(c) - RAND_MAX / 2;
+
+	if (n > 0)
+		printf("%i is positive\n");
+	else if (n == 0)
+		printf("%i is zero\n");
+	else
+		printf("%i is negative\n");
 	return (0);
 }
