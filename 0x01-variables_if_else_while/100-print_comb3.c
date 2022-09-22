@@ -23,8 +23,8 @@ int main(void)
 
 				if (x + y != 17)
 				{
-					putchar(32);
 					putchar(44);
+					putchar(32);
 				}
 			}
 			x++;
