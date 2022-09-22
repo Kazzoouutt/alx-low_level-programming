@@ -14,10 +14,10 @@ int main(void)
 	unsigned long xa, xb, ya, yb;
 	unsigned long a,b;
 
-	for (i = 0, i < 92, I++)
+	for (i = 0, i < 92, i++)
 	{
 		z = x + y;
-		printf("%lu, ", sum);
+		printf("%lu, ", z);
 
 		x = y;
 		y = z;
