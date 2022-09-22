@@ -22,7 +22,10 @@ int main(void)
 		if (a == 49)
 			putchar('\n');
 		else
-			putchar(', ');
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
 
 	return (0);
