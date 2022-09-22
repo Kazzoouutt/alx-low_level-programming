@@ -12,22 +12,20 @@ int main(void)
 	int i;
 	unsigned long x = 0, y = 1, z;
 	unsigned long xa, xb, ya, yb;
-	unsigned long a,b;
+	unsigned long a, b;
 
 	for (i = 0; i < 92; i++)
 	{
 		z = x + y;
 		printf("%lu, ", z);
-
 		x = y;
 		y = z;
 	}
-
-	xa = x/10000000000;
-	ya = y/10000000000;
+	xa = x / 10000000000;
+	ya = y / 10000000000;
 	xb = x % 10000000000;
 	yb = y % 10000000000;
-	
+
 	for (i = 93; i < 99; i++)
 	{
 		a = xa + ya;
@@ -37,21 +35,17 @@ int main(void)
 			a += 1;
 			b %= 10000000000;
 		}
-		
 		printf("%lu%lu", a, b);
 		if (i != 98)
 		{
 			putchar(',');
 			putchar(' ');
 		}
-
 		xa = ya;
 		xb = yb;
 		ya = a;
 		yb = b;
 	}
-	
 	putchar(10);
-
 	return (0);
 }
