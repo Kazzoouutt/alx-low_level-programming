@@ -35,14 +35,14 @@ int main(void)
 		if (xb + yb > 9999999999)
 		{
 			a += 1;
-			b % 10000000000;
+			b %= 10000000000;
 		}
 		
 		printf("%lu%lu", a, b);
 		if (i != 98)
 		{
-			putchar(",");
-			putchar(" ");
+			putchar(',');
+			putchar(' ');
 		}
 
 		xa = ya;
