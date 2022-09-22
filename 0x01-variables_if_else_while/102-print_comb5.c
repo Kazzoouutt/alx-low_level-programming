@@ -28,12 +28,12 @@ int main(void)
 				if (x == 98 && y == 99)
 					break;
 
-				putchar(32);
 				putchar(44);
+				putchar(32);
 			}
 		}
 	}
 
 	putchar(10);
-	return(0);
+	return (0);
 }
