@@ -2,7 +2,7 @@
 
 /**
  * jack_bauer - Prints every minute of the day of 
- * 		Jack Bauer, staring from 0:00 to 23:59
+ * Jack Bauer, staring from 0:00 to 23:59
  *
  * Return - 0
  */
