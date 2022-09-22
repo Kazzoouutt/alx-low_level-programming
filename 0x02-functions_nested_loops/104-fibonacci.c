@@ -14,7 +14,7 @@ int main(void)
 	unsigned long xa, xb, ya, yb;
 	unsigned long a,b;
 
-	for (i = 0, i < 92, i++)
+	for (i = 0; i < 92; i++)
 	{
 		z = x + y;
 		printf("%lu, ", z);
@@ -28,7 +28,7 @@ int main(void)
 	xb = x % 10000000000;
 	yb = y % 10000000000;
 	
-	for (i = 93, i < 99, i++)
+	for (i = 93; i < 99; i++)
 	{
 		a = xa + ya;
 		b = xb + yb;
@@ -51,7 +51,7 @@ int main(void)
 		yb = b;
 	}
 	
-	putchar(10)
+	putchar(10);
 
 	return (0);
 }
