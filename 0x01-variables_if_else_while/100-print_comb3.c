@@ -8,7 +8,7 @@
 int main(void)
 {
 	int x;
-	int (y = 0);
+	int y = 0
 
 	while (y <= 9)
 	{
