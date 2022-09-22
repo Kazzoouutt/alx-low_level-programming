@@ -20,7 +20,7 @@ int main(void)
 
 		if ((z % 2) == 0)
 			i += z;
-		
+
 		x = y;
 		y = z;
 	}
