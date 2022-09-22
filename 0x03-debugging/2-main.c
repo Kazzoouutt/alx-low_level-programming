@@ -6,8 +6,9 @@
  * Return: 0
  */
 
-int main(int a, int b, int c)
+int main(void)
 {
+	int a, b, c;
 	int largest;
 
 	a = 972;

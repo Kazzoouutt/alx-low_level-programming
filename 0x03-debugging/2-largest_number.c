@@ -8,9 +8,13 @@
  * Return: Largest number
  */
 
-int largest_number(int a, int b, int c)
+int largest_number(void)
 {
+	int a, b, c;
 	int largest;
+
+	scanf("%d %d %d", &a, &b, &c);
+	printf("a = %d\tb = %d\tc = %d\n", a, b, c);
 
 	if (a > b && b > c)
 	{
