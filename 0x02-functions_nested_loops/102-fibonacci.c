@@ -20,9 +20,9 @@ int main(void)
 		y = z;
 
 		if (a == 49)
-			printf('\n');
+			putchar('\n');
 		else
-			printf(", ");
+			putchar(', ');
 	}
 
 	return (0);
