@@ -24,7 +24,7 @@ int main(void)
 		x = y;
 		y = z;
 	}
-	printf("%.0f\n", i)
+	printf("%.0f\n", i);
 
 	return (0);
 }
