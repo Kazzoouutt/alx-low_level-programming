@@ -2,9 +2,9 @@
 
 /**
  * _strlen - returns the length of a string
- * @str: The analyzed string
+ * @s: The analyzed string
  *
- * Return: The length of str
+ * Return: The length of string
  */
 
 int _strlen(char *s)
