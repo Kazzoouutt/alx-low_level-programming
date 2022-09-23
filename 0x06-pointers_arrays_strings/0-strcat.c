@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * strcat - to the end 
+ * strcat - to the end of the string
  * @dest: a pointer
  * @src: a source
  *
- * Return: A pointer
+ * Return: A pointer dest
  */
 
 char *strcat(char *dest, const char *src)
