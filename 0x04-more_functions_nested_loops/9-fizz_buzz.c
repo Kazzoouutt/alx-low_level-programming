@@ -5,7 +5,7 @@
  * fizz is printed instead of the number for multiples of five
  * buzz and for multiples of both 3 and 5, fizzbuzz
  *
- * Returm: Always 0
+ * Return: Always 0
  */
 
 int main(void)
