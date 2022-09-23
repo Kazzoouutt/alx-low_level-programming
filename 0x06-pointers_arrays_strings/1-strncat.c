@@ -1,14 +1,15 @@
 #include "main.h"
 
 /**
- * strcat - to the end of the string
- * @dest: a pointer
- * @src: a source
+ * _strncat - concentrates two strings using at most
+ * @dest: the string to be
+ * @src: the string to be
+ * @n: the number of bytes from src
  *
- * Return: A pointer dest
+ * Retur: dest
  */
 
-char *strcat(char *dest, const char *src)
+char *_strnct(char *dest, char *src, int n)
 {
 	int index = 0, dest_len = 0;
 
