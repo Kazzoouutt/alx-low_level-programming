@@ -7,7 +7,7 @@
  *
  * Return: a copy of the string
  */
-i
+
 char *_strcpy(char *dest, char *src)
 {
 	int i = 0;
