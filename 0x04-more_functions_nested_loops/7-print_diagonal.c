@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
- * print_diagonal - draws a diagonal using \
- * @n: The number of \ characters to be printed
+ * print_diagonal - draws a diagonal using backslash
+ * @n: The number of backslash characters to be printed
+ *
+ * Return: Always 0
  */
 
 void print_diagonal(int n)
