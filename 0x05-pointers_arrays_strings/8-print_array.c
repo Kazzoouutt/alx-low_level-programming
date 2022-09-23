@@ -8,7 +8,7 @@
  *
  * Return: Duplicate arrays
  */
-v
+
 void print_array(int *a, int n)
 { 
 	int i;
