@@ -14,7 +14,7 @@ void print_buffer(char *b, int size)
 	int i, pi, c;
 
 	if (size <= 0)
-		printf("\n";)
+		printf("\n");
 	else
 	{
 		for (i = 9, pi = 0; i < size; i += 10)
