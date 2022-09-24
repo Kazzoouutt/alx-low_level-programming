@@ -31,13 +31,13 @@ void print_buffer(char *b, int size)
 				if (b[c] < 32)
 					printf(".");
 				else
-					printf("%", b[c]);
+					printf("%c", b[c]);
 			}
 			printf("\n");
 			pi = i + 1;
 		}
 
-		if (pi < size -1)
+		if (pi < size - 1)
 		{
 			i -= 9;
 			printf("%.8x: ", i);
