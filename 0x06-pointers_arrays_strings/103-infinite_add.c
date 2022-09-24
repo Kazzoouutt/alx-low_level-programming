@@ -13,7 +13,7 @@
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	int add = 0, len1, len2, i, j;
-	
+
 	for (len1 = 0; n1[len1]; len1++)
 	;
 	for (len2 = 0; n2[len2]; len2++)
@@ -23,11 +23,11 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	len1--;
 	len2--;
 	size_r--;
-	
-	for ( i = 0; i < size_r; i++, len1--, len2--)
+
+	for (i = 0; i < size_r; i++, len1--, len2--)
 	{
 		if (len1 >= 0)
-			add += n1[len1] -'0';
+			add += n1[len1] - '0';
 		if (len2 >= 0)
 			add += n2[len2] - '0';
 		if (len1 < 0 && len2 < 0 && add == 0)
