@@ -8,7 +8,6 @@
  *
  * Return: result of the function
  */
-
 void print_buffer(char *b, int size)
 {
 	int i, pi, c;
@@ -25,10 +24,7 @@ void print_buffer(char *b, int size)
 				printf("%.2x", b[c]);
 				if (c % 2 == 1)
 					printf(" ");
-			}
-			for (c = pi; c <= i; c++)
-			{
-				if (b[c] < 32)
+				else if (b[c] < 32)
 					printf(".");
 				else
 					printf("%c", b[c]);
@@ -36,7 +32,6 @@ void print_buffer(char *b, int size)
 			printf("\n");
 			pi = i + 1;
 		}
-
 		if (pi < size - 1)
 		{
 			i -= 9;
